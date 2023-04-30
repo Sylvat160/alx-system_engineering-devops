@@ -2,11 +2,11 @@
 
 - Resources
 
-1. (loops sample)[https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw]
-2. (Variable Assignement)[https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA]
-3. (Comparisons operator)[https://intranet.alxswe.com/rltoken/HxohzllkOWh0t4dy_HptIQ]
-4. (File Test)[https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw]
-5. (Make your script portable)[https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug]
+1. [loops sampl](https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw)
+2. [Variable Assignemen](https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA)
+3. [Comparisons operato](https://intranet.alxswe.com/rltoken/HxohzllkOWh0t4dy_HptIQ)
+4. [File Tes](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
+5. [Make your script portabl](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
 
 ```sh
 man or help:
@@ -20,7 +20,7 @@ if
 ```
 
 ### Learning Objectives
-At the end of this project, you are expected to be able to (explain to anyone)[https://intranet.alxswe.com/rltoken/UnkzDNdH09TFJ0-Y56azyg], without the help of Google
+At the end of this project, you are expected to be able to [explain] to anyon(https://intranet.alxswe.com/rltoken/UnkzDNdH09TFJ0-Y56azyg), without the help of Google
 
 ### General
 
@@ -34,7 +34,7 @@ What are files and other comparison operators, and how to use them
 ```
 
 ### Shellcheck
-(Shellcheck)[https://intranet.alxswe.com/rltoken/joK6l_yEZ9N7T0GQ1RDjLA] is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. Shellcheck is your friend! All your Bash scripts must pass **Shellcheck** *without any error or you will not get any points on the task.*
+[Shellchec](https://intranet.alxswe.com/rltoken/joK6l_yEZ9N7T0GQ1RDjLA) is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. Shellcheck is your friend! All your Bash scripts must pass **Shellcheck** *without any error or you will not get any points on the task.*
 ```sh
 # Install it
 snap install --channel=edge shellcheck
