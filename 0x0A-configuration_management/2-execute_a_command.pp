@@ -1,7 +1,6 @@
-#!/usr/bin/pup
-# Kill a process
+# kill process killmenow
 
-exec {'pkill':
-    command => 'pkill killmenow',
-    provider => 'shell',
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
