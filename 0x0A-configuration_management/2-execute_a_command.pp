@@ -1,3 +1,4 @@
+#!/usr/bin/pup
 # Kill a process
 
 exec {'pkill':
