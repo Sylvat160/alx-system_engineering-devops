@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Write a Bash script that uses ssh to connect
+
+ssh -i ~/.ssh/school ubuntu@8.8.8.8
