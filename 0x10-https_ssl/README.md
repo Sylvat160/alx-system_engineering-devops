@@ -13,11 +13,11 @@ We will examine the consequences of not securing website traffic and understand 
 
 Please refer to the following resources for further reading or watching:
 
-- [What is HTTPS?](https://example.com/what-is-https)
-- [What are the 2 main elements that SSL is providing](https://example.com/ssl-elements)
-- [HAProxy SSL termination on Ubuntu 16.04](https://example.com/haproxy-ssl-termination)
-- [SSL termination](https://example.com/ssl-termination)
-- [Bash function](https://example.com/bash-function)
+- [What is HTTPS?](https://www.instantssl.com/http-vs-https)
+- [What are the 2 main elements that SSL is providing](https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html)
+- [HAProxy SSL termination on Ubuntu 16.04](https://docs.ionos.com/cloud/)
+- [SSL termination](hhttps://en.wikipedia.org/wiki/TLS_termination_proxy)
+- [Bash function](https://tldp.org/LDP/abs/html/complexfunct.html)
 
 You may also consult the following man pages or help documentation:
 
