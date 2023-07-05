@@ -18,7 +18,7 @@ Please refer to the following resources for further reading or watching:
 - [HAProxy SSL termination on Ubuntu 16.04](https://docs.ionos.com/cloud/)
 - [SSL termination](hhttps://en.wikipedia.org/wiki/TLS_termination_proxy)
 - [Bash function](https://tldp.org/LDP/abs/html/complexfunct.html)
-- [Load balacing algorithm](https://community.f5.com/t5/technical-articles/intro-to-load-balancing-for-developers-the-algorithms/ta-p/273759)
+
 
 You may also consult the following man pages or help documentation:
 

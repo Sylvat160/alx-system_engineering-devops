@@ -1,0 +1,1 @@
+- [Load balacing algorithm](https://community.f5.com/t5/technical-articles/intro-to-load-balancing-for-developers-the-algorithms/ta-p/273759)
