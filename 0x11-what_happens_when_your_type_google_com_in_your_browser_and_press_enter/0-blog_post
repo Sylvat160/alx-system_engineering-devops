@@ -1,0 +1,41 @@
+Exploring the Journey of a Web Request: From URL to Web Page
+
+Introduction: When we type a URL like "https://www.google.com" into our web browser and press Enter, it initiates a complex series of events that result in the display of a web page on our screens. In this blog post, we will
+unravel the intricacies of this process and explore the key components involved in delivering the requested content. So, let's dive in and discover what happens behind the scenes when we interact with the web! 
+
+ - DNS Request
+The first step in the journey is the translation of the human-readable URL into an IP address. The Domain Name System (DNS) comes into play here. The browser sends a DNS request to a DNS resolver or the user's ISP's DNS server to obtain the IP address associated with the domain name "www.google.com". The DNS resolver then resolves the domain name by querying authoritative DNS servers until it obtains the IP address.
+
+- TCP/IP
+
+Once the browser has obtained the IP address, it establishes a Transmission Control Protocol (TCP) connection with the web server hosting the requested website. TCP ensures reliable communication between the browser and the server by dividing data into packets, managing the order of transmission, and providing error
+detection and correction mechanisms. The Internet Protocol (IP) handles the routing of these packets across the internet.
+
+- Firewall
+
+Before the TCP connection can be established, the browser's request and the server's response must traverse various network components, including firewalls. Firewalls act as security checkpoints, filtering incoming and outgoing traffic based on predefined rules to protect the network from unauthorized access and potential threats.
+
+- HTTPS/SSL
+
+To ensure secure communication, the Hypertext Transfer Protocol Secure (HTTPS) protocol is employed. The browser initiates an HTTPS handshake, which involves a series of steps such as verifying the authenticity of the server's SSL (Secure Sockets Layer) certificate and establishing an encrypted connection. SSL certificates are issued by trusted Certificate Authorities (CAs) and are crucial in verifying the identity of the website and enabling encrypted data transmission.
+
+- Load-Balancer
+
+In the case of large-scale websites, multiple web servers are often employed to handle the incoming requests. A load-balancer sits between the browser and the web servers, distributing the incoming traffic efficiently across the servers to ensure optimal performance and prevent overloading.
+
+- Web Server
+
+The web server receives the browser's request and processes it. It retrieves the requested resources, such as HTML, CSS, JavaScript files, and any server-side scripts, and constructs a response. The web server may also interact with an application server and a database server, depending on the architecture of the web application.
+
+- Application Server
+
+In some cases, a separate application server is used to handle the dynamic aspects of a web application. The application server executes server-side code, interacts with databases, and performs various tasks required to process the user's request. It then sends the processed data back to the web server for further rendering.
+
+- Database
+
+If the web application requires data from a database, the application server interacts with the database server to retrieve and manipulate the required information. The database server stores and manages structured data, ensuring efficient storage, retrieval, and maintenance.
+
+- Conclusion
+
+The journey from typing a URL into a browser to seeing the desired web page involves a multitude of interconnected components. Understanding this process helps us appreciate the underlying mechanisms that make the web work seamlessly. From DNS resolution to TCP/IP communication, from HTTPS encryption to load balancing, and from web servers to databases, each step plays a vital role in delivering the content we interact with daily.
+By grasping these concepts, software engineers can better comprehend the complexities of web development and enhance their ability to design robust and efficient systems. So, the next time you enter a URL and press Enter, remember the remarkable journey that unfolds behind the scenes!
