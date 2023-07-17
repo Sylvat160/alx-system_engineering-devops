@@ -3,6 +3,7 @@
 #+ It opens ports 22, 80, and 443.
 # Configure the firewall to allow incoming traffic for TCP ports 22, 80, and 443.
 
+
 apt-get install ufw
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 ufw default deny incoming
