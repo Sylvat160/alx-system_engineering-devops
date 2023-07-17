@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script configures a firewall on the web-01 server.
+#+ It opens ports 22, 80, and 443.
+# Configure the firewall to allow incoming traffic for TCP ports 22, 80, and 443.
+
+apt-get install ufw
+sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
+ufw default deny incoming
+ufw default allow outgoing
+ufw enable
+ufw allow 22/tcp
+ufw allow 80/tcp
+ufw allow 443/tcp
